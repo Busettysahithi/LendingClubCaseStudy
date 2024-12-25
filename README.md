@@ -1,5 +1,12 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default
+Analyse the Lending applicants data of Lending Club from 2007 to 2011
+Minimise the risk of losing money while lending to urban customers
+Avoid Financial loss by not lending to applicants likely to default
+Identify the Patterns for applicants likely to default
+> Objective -
+> Avoid Business loss by lending to applicants who likely to repay the loan
+Avoid Financial Loss by rejecting applicants who are likely to default
 
 
 ## Table of Contents
@@ -11,42 +18,59 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project is about Exploratory Data Analysis for finding solution to avoid Business Loss and Financial Loss for the company.
+- This Project is related to Loan Lending Company which requires analysis to protect from Business and Financial Loss.
+- The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default
+Analyse the Lending applicants data of Lending Club from 2007 to 2011
+Minimise the risk of losing money while lending to urban customers
+Avoid Financial loss by not lending to applicants likely to default
+Identify the Patterns for applicants likely to default
+- We have dataset named Loan which we are using to analyse this loan data of company.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+# Conclusions
+## Term is directly proportional to Loan Amount.
+## Grade is directly proportional to Loan Amount.
+## Interest rate is directly proportional to Loan Amount.
+## Annual Income is directly proportional to Loan Amount.
+## Interest Rate is directly Proportional to Term.
+## Interest Rate is directly Proportional to Grade.
+## home_ownership doesnot have much effect on Interest rate.
+## Interest Rate is not related to Annual_income.
+## Interest rate is directly proportional to Verification_status.
+## Interest Rate does not have relation with Issue_Month.
+## As DTI increases, Int_rate also increases but for DTI with 25-30, interest rate is less. 
+## Interest rate is directly proportional to pub_rec_banruptcies.
+## if the term is 36 months, there is only 10.7% charged off loans,
+## but if 60 months, ther is 25.1% charged off loans
+## if loan amount is more, then there is high chances of being defaulters.
+## if higher the interest rate higher is the amount of defaulters, Loan_status is directly proportional to Int_rate. 
+## loans with lower grade have less chances of defaulting, while with higher grade - defaulters are also higher
+## emp_length has very less influence on Loan_status
+## home_ownership has less influence on why there are defaulters.
+## Loan_status is inversely proportional to Annual Income.
+## Verification status has minimum effect on Loan_status.
+## Year does not have much influence.
+## defaulters will be less when loans are approved in the beginning of year, but in the end this difference is not much. 
+## loans on Small_business and renewable_energy will default the most. 
+## DTI is directly proportional to loan_status
+## people with 1 pub_rec have more defaulters when compared to others
+## Loan_status is directly proportional to pub_rec-bankruptcies.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Python 311
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was given by Upgrad for understanding and Practice. 
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Busettysahithi] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+<!-- This project is from Upgrad Case Study 
